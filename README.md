@@ -22,6 +22,12 @@ The `--timeout` parameter dictates how long the max allowed length will be for u
 
 This is a **personal project** and it's only objective is to showcase a **simple and modular way to implement object detection for multiple streams in a well presented, easy to understand web app**. Normally, object detection is already accessible through jupyter notebooks and Google Colabs, however they might still be too technical for the average Joe. This simple web app _takes away all the code_ from the user, and presents the results in a more eye-pleasing package. Currently, this project is using a general-purpose model that isn't very accurate for a lot of stuff, but **the model could always be swapped for a better performing one trained in one's domain of choice**.
 
+## Demo
+
+https://github.com/splicer3/SPLCD-ObjectDetector/assets/104271382/e1bc2d3b-6dde-4167-b65e-6f60c245bcfe  
+**Webcam access was denied for privacy but the live feed works.**
+
+
 ## Credits
 
 [Flask](http://flask.palletsprojects.com/)  
