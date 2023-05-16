@@ -7,8 +7,8 @@ Open Source **project site** for easy object detection using **Flask**, **Tailwi
 </p>
 
 ## Installation
-You need to `pip install` the requirements.txt file provided in the repo and eventually `npm install` (the nodejs modules folder is provided).  
-Then run the app with `flask run` or `gunicorn -w 4 app:app`.
+Install conda or miniconda following the [anaconda docs](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html) and run `conda env create -f environment.yml` and eventually `npm install` (the nodejs modules folder is provided).  
+Then run the app with `flask run` or `gunicorn -w 4 app:app`(make sure the conda environment is activated).
 
 ## Technologies used
 
