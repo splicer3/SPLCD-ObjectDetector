@@ -8,7 +8,8 @@ Open Source **project site** for easy object detection using **Flask**, **Tailwi
 
 ## Installation
 Install conda or miniconda following the [anaconda docs](https://docs.conda.io/projects/conda/en/stable/user-guide/install/index.html) and run `conda env create -f environment.yml` and eventually `npm install` (the nodejs modules folder is provided).  
-Then run the app with `flask run` or `gunicorn -w 4 app:app`(make sure the conda environment is activated).
+Then run the app with `flask run` or `gunicorn -w 4 --timeout 600 app:app`(make sure the conda environment is activated).  
+The `--timeout` parameter dictates how long the max allowed length will be for uploaded videos in seconds (default is 600, aka 10 minutes).
 
 ## Technologies used
 
